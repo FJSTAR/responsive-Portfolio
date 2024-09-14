@@ -825,6 +825,13 @@ h3.my-profession {
     .home .home-img img {
         height: 200px;
     }
+    .home-info p {
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+    h3.my-profession {
+        font-size: 22px;
+    }
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
