@@ -852,6 +852,9 @@ h3.my-profession {
         max-width: 100%;
         width: 100%;
     }
+    .about .about-content .personal-info .info-item p {
+        padding: 7px 0;
+    }
     .aside {
         width: 200px;
     }
