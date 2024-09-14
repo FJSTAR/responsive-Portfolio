@@ -731,7 +731,7 @@ h3.my-profession {
 .style-switcher {
     position: fixed;
     right: 0;
-    top: 60px;
+    top: 0;
     padding: 15px;
     width: 200px;
     border: 1px solid var(--bg-black-50);
@@ -818,6 +818,13 @@ h3.my-profession {
 }
 
 @media (max-width:767px) {
+    .home .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-img img {
+        height: 200px;
+    }
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
@@ -828,5 +835,14 @@ h3.my-profession {
     .about .about-content .personal-info {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .about .about-content .personal-info .row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about .about-content .personal-info .info-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+        width: 100%;
     }
 }
