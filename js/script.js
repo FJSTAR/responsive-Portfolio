@@ -21,34 +21,9 @@ document.addEventListener("load", () => {
     }
 })
 
-// aside
-// const nav = document.querySelector(".nav"),
-// navlist = nav.querySelectorAll("li"),
-// totalnavlist = navlist.length,
-// allSection = document.querySelectorAll(".section"),
-// totalSection = allSection.length;
-// for (let i = 0; i < totalnavlist; i++) {
-//     const a = navlist[i].querySelector("a");
-//     a.addEventListener("click", function() {
-//         for (let j = 0; j < totalnavlist; j++) {
-//             navlist[j].querySelector("a").classList.remove("active");
-//         }
-//         this.classList.add("active");
-//         showSection(this);
-//     })
-// }
-// function showSection(element) {
-//     for (let i = 0; i < totalSection; i++) {
-//         allSection[i].classList.remove("active");
-        
-//     }
-//     const target = element.getAttribute("href").split("#")[1];
-//     document.querySelector("#"+target).classList.add("active");
-// }
-
 const navTogglerBtn = document.querySelector(".nav-toggler"),
     aside = document.querySelector(".aside");
-navTogglerBtn.addEventListener("click", () => {
+    navTogglerBtn.addEventListener("click", () => {
     asideSectionTogglerBtn();
 })
 function asideSectionTogglerBtn() {
