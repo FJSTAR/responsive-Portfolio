@@ -545,8 +545,8 @@ h3.my-profession {
 }
 .service .service-item {
     margin-bottom: 30px;
-    flex: 0 0 33.33%;
-    max-width: 33.33%;
+    flex: 0 0 20%;
+    max-width: 20%;
 }
 
 .service .service-item .service-item-inner {
@@ -573,7 +573,7 @@ h3.my-profession {
 }
 
 .service .service-item .service-item-inner .icon .fa {
-    font-size: 40px;
+    font-size: 60px;
     line-height: 60px;
     color: var(--skin-color);
     transition: all 0.3s ease;
@@ -584,7 +584,7 @@ h3.my-profession {
 }
 
 .service .service-item .service-item-inner:hover .icon .fa {
-    font-size: 25px;
+    font-size: 35px;
     color: #fff;
 }
 
@@ -675,7 +675,7 @@ h3.my-profession {
     margin: 15px 0 5px;
 }
 
-.contact .contact-info-item p {
+.contact .contact-info-item a {
     font-size: 16px;
     line-height: 25px;
     color: var(--text-black-700);
