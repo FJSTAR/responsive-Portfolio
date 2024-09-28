@@ -834,6 +834,9 @@ h3.my-profession {
         font-size: 17px;
         margin-bottom: 30px;
     }
+    .aside .nav li a {
+        font-size: 12px;
+    }
     h3.my-profession {
         font-size: 22px;
     }
