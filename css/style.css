@@ -15,6 +15,11 @@ body.dark {
     --bg-black-50: #393939;
     --text-black-900: #ffffff;
     --text-black-700: #e9e9e9;
+
+    .service {
+        background: url(../images/Parallex3.jpg) no-repeat fixed;
+        background-size: cover;
+    }
 }
 
 html {
@@ -545,8 +550,8 @@ h3.my-profession {
 }
 .service .service-item {
     margin-bottom: 30px;
-    flex: 0 0 20%;
-    max-width: 20%;
+    flex: 0 0 25%;
+    max-width: 25%;
 }
 
 .service .service-item .service-item-inner {
