@@ -841,7 +841,6 @@ h3.my-profession {
         font-size: 22px;
     }
     .contact .contact-form .col-6,
-    .contact .contact-info-item,
     .portfolio .portfolio-item,
     .about .about-content .experience,
     .about .about-content .education,
@@ -850,7 +849,8 @@ h3.my-profession {
         flex: 0 0 100%;
         max-width: 100%;
     }
-    .service .service-item {
+    .service .service-item,
+    .contact .contact-info-item {
         flex: 0 0 50%;
         max-width: 50%;
     }
@@ -865,6 +865,12 @@ h3.my-profession {
     }
     .about .about-content .personal-info .info-item p {
         padding: 7px 0;
+    }
+    .contact .contact-info-item h4 {
+        font-size: 16px;
+    }
+    .contact .contact-info-item a {
+        font-size: 12px;
     }
     .aside {
         width: 200px;
