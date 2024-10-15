@@ -385,9 +385,9 @@
                         <!-- portfolio item start -->
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
-                                <a class="portfolio-img" href="https://jigar-random-password-generator.netlify.app/" target="_blank">
-                                    <img src="images/portfolio/RANDOM PASSSWORD GENERATOR.png"
-                                        alt="">
+                                <a class="portfolio-img" href="https://jigar-random-password-generator.netlify.app/"
+                                    target="_blank">
+                                    <img src="images/portfolio/RANDOM PASSSWORD GENERATOR.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -396,8 +396,7 @@
                         <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <a class="portfolio-img" href="https://jigar-movie-filter.netlify.app" target="_blank">
-                                    <img src="images/portfolio/MOVIE FILTER USING API.png"
-                                        alt="">
+                                    <img src="images/portfolio/MOVIE FILTER USING API.png" alt="">
                                 </a>
                             </div>
                         </div>
@@ -507,10 +506,36 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
         integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
         new WOW().init();
     </script>
     <script src="js/script.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            var sectionIds = $('a.navlink');
+
+            $(document).scroll(function () {
+                sectionIds.each(function () {
+
+                    var container = $(this).attr('href');
+                    var containerOffset = $(container).offset().top;
+                    var containerHeight = $(container).outerHeight();
+                    var containerBottom = containerOffset + containerHeight;
+                    var scrollPosition = $(document).scrollTop();
+
+                    if (scrollPosition < containerBottom - 20 && scrollPosition >= containerOffset - 20) {
+                        $(this).addClass('active');
+                    } else {
+                        $(this).removeClass('active');
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
