@@ -21,14 +21,14 @@ body.dark {
         background-size: cover;
     }
 
-    canvas {
+    /* canvas {
         display: block;
         height: 100%;
         width: 100%;
         background: #141414 !important;
         opacity: 1;
         position: absolute;
-    }
+    } */
 }
 
 html {
