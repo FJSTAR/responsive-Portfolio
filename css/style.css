@@ -77,6 +77,14 @@ ul {
     display: none !important;
 } */
 
+canvas {
+    height: 100%;
+    width: 100%;
+    background: #141414 !important;
+    opacity: 1;
+    position: absolute;
+}
+
 .main-content {
     padding-left: 270px;
 }
