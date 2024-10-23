@@ -20,6 +20,15 @@ body.dark {
         background: url(../images/Parallex3.jpg) no-repeat fixed;
         background-size: cover;
     }
+
+    canvas {
+        display: block;
+        height: 100%;
+        width: 100%;
+        background: #141414 !important;
+        opacity: 1;
+        position: absolute;
+    }
 }
 
 html {
@@ -78,11 +87,7 @@ ul {
 } */
 
 canvas {
-    height: 100%;
-    width: 100%;
-    background: #141414 !important;
-    opacity: 1;
-    position: absolute;
+    display: none;
 }
 
 .main-content {
