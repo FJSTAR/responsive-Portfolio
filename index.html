@@ -37,7 +37,7 @@
         <!-- Main Content Start -->
         <div class="main-content">
             <!-- Home Section Start -->
-            <canvas></canvas>
+             <canvas></canvas>
             <div class="home active section" id="home">
                 <div class="container">
                     <div class="row">
@@ -334,13 +334,9 @@
                             <h2>My Last Projects : </h2>
                         </div>
                     </div>
-                    <div class="button-group filter-button-group">
-                        <button data-filter="*">show all</button>
-                        <button data-filter=".games">Games</button>
-                    </div>
-                    <div class="grid">
+                    <div class="row">
                         <!-- portfolio item start -->
-                        <div class="portfolio-item element-item games padd-15">
+                        <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <a class="portfolio-img" href="https://memory-card-flipping-game.netlify.app/"
                                     target="_blank">
@@ -348,7 +344,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="portfolio-item element-item games padd-15">
+                        <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <a class="portfolio-img" href="https://rock-paper-scissor-javascript-game.netlify.app"
                                     target="_blank">
@@ -356,7 +352,7 @@
                                 </a>
                             </div>
                         </div>
-                        <div class="portfolio-item element-item padd-15">
+                        <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <a class="portfolio-img" href="https://jigar-all-in-one-calculator.netlify.app/"
                                     target="_blank">
@@ -366,7 +362,7 @@
                         </div>
                         <!-- portfolio item end -->
                         <!-- portfolio item start -->
-                        <div class="portfolio-item element-item padd-15">
+                        <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <a class="portfolio-img" href="https://jigar-todo.netlify.app/" target="_blank">
                                     <img src="images/portfolio/TODO LIST.png" alt="">
@@ -375,7 +371,7 @@
                         </div>
                         <!-- portfolio item end -->
                         <!-- portfolio item start -->
-                        <div class="portfolio-item element-item padd-15">
+                        <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <a class="portfolio-img" href="https://movie-ticket-boooking.netlify.app/"
                                     target="_blank">
@@ -385,7 +381,7 @@
                         </div>
                         <!-- portfolio item end -->
                         <!-- portfolio item start -->
-                        <div class="portfolio-item element-item padd-15">
+                        <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <a class="portfolio-img" href="https://fashion-product-filter.netlify.app/"
                                     target="_blank">
@@ -395,7 +391,7 @@
                         </div>
                         <!-- portfolio item end -->
                         <!-- portfolio item start -->
-                        <div class="portfolio-item element-item padd-15">
+                        <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <a class="portfolio-img" href="https://weather-play.netlify.app" target="_blank">
                                     <img src="images/portfolio/WEATHER APP.png" alt="">
@@ -404,7 +400,7 @@
                         </div>
                         <!-- portfolio item end -->
                         <!-- portfolio item start -->
-                        <div class="portfolio-item element-item padd-15">
+                        <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <a class="portfolio-img" href="https://jigar-random-password-generator.netlify.app/"
                                     target="_blank">
@@ -414,7 +410,7 @@
                         </div>
                         <!-- portfolio item end -->
                         <!-- portfolio item start -->
-                        <div class="portfolio-item element-item padd-15">
+                        <div class="portfolio-item padd-15">
                             <div class="portfolio-item-inner shadow-dark">
                                 <a class="portfolio-img" href="https://jigar-movie-filter.netlify.app" target="_blank">
                                     <img src="images/portfolio/MOVIE FILTER USING API.png" alt="">
@@ -534,19 +530,7 @@
         new WOW().init();
     </script>
     <script src="js/script.js"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
     <!-- <script src="js/smoke.js"></script> -->
-    <script>
-        // init Isotope
-        var $grid = $('.grid').isotope({
-            // options
-        });
-        // filter items on button click
-        $('.filter-button-group').on('click', 'button', function () {
-            var filterValue = $(this).attr('data-filter');
-            $grid.isotope({ filter: filterValue });
-        });
-    </script>
     <script>
         $(document).ready(function () {
 
