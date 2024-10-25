@@ -929,6 +929,10 @@ h3.my-profession {
         align-items: flex-start;
     }
 
+    .about .about-content .timeline .timeline-text {
+        font-size: 14px;
+    }
+
     .about .about-content .personal-info .info-item {
         flex: 0 0 100%;
         max-width: 100%;
