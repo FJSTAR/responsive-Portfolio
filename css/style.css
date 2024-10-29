@@ -22,6 +22,17 @@ body.dark {
         background-size: cover;
     }
 
+    .filter a {
+        color: #ffffff;
+        background: var(--bg-black-100);
+    }
+
+    .filter a.active {
+        background: #ec1839;
+        color: #ffffff;
+        box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+    }
+
     /* canvas {
         display: block;
         height: 100%;
@@ -631,9 +642,9 @@ h3.my-profession {
 .filter a {
     display: inline-block;
     padding: 10px;
-    color: #ffffff;
-    background: var(--bg-black-100);
-    border: 1px solid var(--bg-black-50);
+    color: #ec1839;
+    background: #ffffff;
+    border: 1px solid #ec1839;
     border-radius: 10px;
     margin-right: 20px;
     margin-bottom: 20px;
@@ -643,6 +654,7 @@ h3.my-profession {
 
 .filter a.active {
     background: #ec1839;
+    color: #ffffff;
     box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 
