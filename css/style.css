@@ -706,6 +706,10 @@ h3.my-profession {
 }
 
 /* CONTACT */
+
+.contact.section {
+    min-height: auto;
+}
 .contact-title {
     color: var(--skin-color);
     text-align: center;
