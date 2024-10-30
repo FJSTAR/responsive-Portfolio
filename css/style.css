@@ -921,6 +921,19 @@ h3.my-profession {
         font-size: 14px;
     }
 
+    .about .about-content .timeline .timeline-item {
+        padding-left: 30px;
+        padding-bottom: 30px;
+    }
+
+    .about .about-content .timeline .timeline-date {
+        margin-bottom: 10px;
+    }
+
+    .about .about-content .timeline .timeline-title {
+        margin-bottom: 10px;
+    }
+
     .aside .nav li a {
         font-size: 12px;
     }
@@ -945,6 +958,27 @@ h3.my-profession {
         max-width: 50%;
     }
 
+    .service .service-item {
+        margin-bottom: 20px;
+    }
+
+    .service .service-item .service-item-inner {
+        padding: 15px;
+    }
+
+    .service .service-item .service-item-inner .icon {
+        margin: 0 auto 15px;
+    }
+
+    .service .service-item .service-item-inner .icon .fa {
+        font-size: 50px;
+    }
+
+    .service .service-item .service-item-inner h4 {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
     .about .about-content .personal-info .row {
         flex-direction: column;
         align-items: flex-start;
@@ -952,6 +986,7 @@ h3.my-profession {
 
     .about .about-content .timeline .timeline-text {
         font-size: 14px;
+        line-height: 22px;
     }
 
     .about .about-content .personal-info .info-item {
